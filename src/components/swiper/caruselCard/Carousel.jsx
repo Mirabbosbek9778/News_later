@@ -1,11 +1,9 @@
-import React from "react";
 import {
   CaruselCard1,
   CaruselCard2,
   CaruselCard3,
 } from "../../../assets/iconsAll";
 import { Container, Sviper, SviperSlide, Wrapper } from "./style";
-
 import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper/modules";
 
 const CarouselFilm = () => {
@@ -14,23 +12,22 @@ const CarouselFilm = () => {
       <Container>
         <div className="pt-6"></div>
         <Sviper
-          slidesPerView={3}
-          grid={3}
-          centeredSlides={false}
+          slidesPerView={4}
+          centeredSlides={false && true}
           slidesPerGroupSkip={1}
           grabCursor={true}
           keyboard={{
             enabled: true,
           }}
           breakpoints={{
-            700: {
-              slidesPerView: 6,
-              slidesPerGroup: 3,
+            800: {
+              slidesPerView: 4,
+              slidesPerGroup: 2,
             },
           }}
           navigation={true}
           modules={[Keyboard, Scrollbar, Navigation, Pagination]}
-          className="mySwiper flex gap-5 "
+          className="mySwiper"
         >
           <SviperSlide>
             <img src={CaruselCard1} />

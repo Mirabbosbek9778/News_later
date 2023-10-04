@@ -5,6 +5,7 @@ import LineHight from "../components/line/LineHeight";
 import Carusel from "../components/swiper/Carusel";
 import Film from "../components/priview/Film";
 import FilterCarusel from "../components/swiper/filterCarusel/FilterCarusel";
+import GenericCards from "../components/generic/genericCard/GenericCards";
 const App = () => {
   return (
     <div>
@@ -16,7 +17,10 @@ const App = () => {
       <Carusel />
       <LineHight />
       <Film />
+      <LineHight />
       <FilterCarusel />
+      <LineHight />
+      <GenericCards />
     </div>
   );
 };
