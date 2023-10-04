@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textHeader {
+  color: #f2f2f2;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 24px;
+}
+.bottomLigth:hover {
+  border-bottom: 2px solid #c38814;
+}
+.hoverIcons:hover {
+  border: 2px solid #ebad2d;
+  border-radius: 50%;
+}
+
+
+.films{
+  border-bottom: 2px solid #c38814;
+
+}
