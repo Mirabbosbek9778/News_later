@@ -1,16 +1,16 @@
 import Header from "../components/header/Header";
 import BoxBody from "../components/body/boxBody/Boxbody";
-import ConBox from "../components/body/conBody/ConBox";
 import LineHight from "../components/line/LineHeight";
 import Carusel from "../components/swiper/Carusel";
 import Film from "../components/priview/Film";
 import FilterCarusel from "../components/swiper/filterCarusel/FilterCarusel";
 import GenericCards from "../components/generic/genericCard/GenericCards";
+import Root from "./root";
 const App = () => {
   return (
     <div>
       <Header />
-      <ConBox />
+      <Root />
       <LineHight />
       <BoxBody />
       <LineHight />
