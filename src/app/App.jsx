@@ -1,6 +1,6 @@
 import Header from "../components/header/Header";
 import BoxBody from "../components/body/boxBody/Boxbody";
-import Body from "../components/body/conBody/ConBox";
+import ConBox from "../components/body/conBody/ConBox";
 import LineHight from "../components/line/LineHeight";
 import Carusel from "../components/swiper/Carusel";
 import Film from "../components/priview/Film";
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Body />
+      <ConBox />
       <LineHight />
       <BoxBody />
       <LineHight />
