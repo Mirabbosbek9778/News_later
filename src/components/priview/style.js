@@ -21,6 +21,6 @@ const Linefilm = styled.div`
   max-width: 1440px;
   width: 100%;
   height: ${({ indent }) => (indent ? "2px" : "3px")};
-  background: ${({ indent }) => (indent ? "yellow" : "white")};
+  background: ${({ indent }) => (indent ? "#ABABAB" : "yellow")};
 `;
 export { Wrapper, Container, Linefilm };

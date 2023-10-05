@@ -78,15 +78,10 @@ const Header = () => {
             <a href="https://youtube.com/">
               <img src={Youtube} className="hoverIcons" />
             </a>
-            <Dropdown
-              menu={items}
-              className="flex items-center justify-center textHeader ml-2"
-            >
-              <Button className="text-white w-[83px] h-10">
-                Ru
-                <DownOutlined className="w-[19px] h-[19px] flex pt-1.5" />
-              </Button>
-            </Dropdown>
+            <Button className="text-white w-[83px] h-10 flex items-center justify-center textHeader ml-2">
+              Ru
+              <DownOutlined className="w-[19px] h-[19px] flex pt-1.5" />
+            </Button>
           </div>
         </div>
       </div>
