@@ -1,27 +1,12 @@
 import { DownOutlined } from "@ant-design/icons";
-import { Button, Dropdown } from "antd";
+import { Button } from "antd";
 import { Facebook, Logo, Telegram, Youtube } from "../../assets/iconsAll";
 
 const Header = () => {
-  const items = [
-    {
-      label: "Кинопоказы",
-      key: "1",
-    },
-    {
-      label: "Кинопоказы2",
-      key: "2",
-    },
-    {
-      label: "Кинопоказы3",
-      key: "3",
-    },
-  ];
-
   return (
-    <div className="h-[113px] bg-[#111] flex text-white flex-col items-center w-full justify-center z-100">
-      <div className="flex justify-between items-center">
-        <div className="w-full max-w-[1440px] flex items-center gap-16">
+    <div className="h-[113px] bg-[#111] flex text-white flex-col items-center w-full justify-center">
+      <div className="flex justify-between items-center max-w-[1440px]">
+        <div className="flex items-center gap-16">
           <div className="flex items-center gap-8">
             <a href="/home">
               <img src={Logo} />
@@ -29,24 +14,18 @@ const Header = () => {
             <h1 className="pl-[89px] textHeader bottomLigth">
               <a href="/news">Новости</a>
             </h1>
-            <Dropdown menu={items}>
-              <Button className="text-white border-none textHeader flex">
-                Кинопоказы
-                <DownOutlined className="w-[19px] h-[19px] pt-2" />
-              </Button>
-            </Dropdown>
-            <Dropdown menu={items}>
-              <Button className="text-white border-none textHeader flex">
-                Лица
-                <DownOutlined className="w-[19px] h-[19px] pt-2" />
-              </Button>
-            </Dropdown>
-            <Dropdown menu={items}>
-              <Button className="text-white border-none textHeader flex">
-                Программа
-                <DownOutlined className="w-[19px] h-[19px] pt-2" />
-              </Button>
-            </Dropdown>
+            <Button className="text-white h-10 flex items-center justify-center textHeader ml-2 border-none">
+              Кинопоказы
+              <DownOutlined className="w-[19px] h-[19px] pt-1" />
+            </Button>
+            <Button className="text-white h-10 flex items-center justify-center textHeader ml-2 border-none">
+              Лица
+              <DownOutlined className="w-[19px] h-[19px] pt-1" />
+            </Button>
+            <Button className="text-white h-10 flex items-center justify-center textHeader ml-2 border-none">
+              Программа
+              <DownOutlined className="w-[19px] h-[19px] pt-1" />
+            </Button>
             <h1 className="textHeader bottomLigth">
               <a href="/Media">Медиа</a>
             </h1>
@@ -69,10 +48,10 @@ const Header = () => {
                 />
               </svg>
             </a>
-            <a href="https://www.facebook.com/campaign/landing.php?campaign_id=11554070363&extra_1=s%7Cc%7C477437435741%7Ce%7Cfacebook%7C&placement=&creative=477437435741&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D11554070363%26adgroupid%3D112923417056%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1028523%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjw9-6oBhBaEiwAHv1QvFHXME3otnfqxvL4hnmdjGMxHGkGWwRcY_gkMev8I_qxZPAPlAsPthoCmh0QAvD_BwE">
+            <a href="https://www.facebook.com/">
               <img src={Facebook} className="hoverIcons" />
             </a>
-            <a href="https://web.telegram.org/a/">
+            <a href="https://telegram.com">
               <img src={Telegram} className="hoverIcons" />
             </a>
             <a href="https://youtube.com/">

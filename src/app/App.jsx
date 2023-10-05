@@ -37,6 +37,7 @@ const App = () => {
       <BrandCarusel />
       <LineHight />
       <Footer />
+      <LineHight />
     </div>
   );
 };
