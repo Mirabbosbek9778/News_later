@@ -7,7 +7,7 @@ import Carusel from "../../components/swiper/Carusel";
 import FilterCarusel from "../../components/swiper/filterCarusel/FilterCarusel";
 import ConBox from "../../components/body/conBody/ConBox";
 
-export {
+export default {
   BoxBody,
   GenericCards,
   Header,

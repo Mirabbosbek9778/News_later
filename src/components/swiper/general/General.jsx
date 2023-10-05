@@ -1,4 +1,3 @@
-import React from "react";
 import Alltext from "../../allText/Alltext";
 import { Wrapper, Container } from "./style";
 import CarouselFilm from "../caruselCard/Carousel";

@@ -1,18 +1,16 @@
-import BrandCarusel from "../components/brandCarusel/BrandCarusel";
-import Description from "../components/description/Description";
-import Footer from "../components/footer/Footer";
-import Media from "../components/media/Media";
+import BoxBody from "../components/body/boxBody/Boxbody"; // Import BoxBody directly
+import GenericCards from "../components/generic/genericCard/GenericCards"; // Import GenericCards directly
+import Header from "../components/header/Header";
+import LineHight from "../components/line/LineHeight";
+import Film from "../components/priview/Film";
+import Carusel from "../components/swiper/Carusel";
+import FilterCarusel from "../components/swiper/filterCarusel/FilterCarusel";
+import ConBox from "../components/body/conBody/ConBox";
 import General from "../components/swiper/general/General";
-import {
-  Header,
-  LineHight,
-  BoxBody,
-  Carusel,
-  Film,
-  FilterCarusel,
-  GenericCards,
-  ConBox,
-} from "./allImports/AllImports";
+import Description from "../components/description/Description";
+import Media from "../components/media/Media";
+import BrandCarusel from "../components/brandCarusel/BrandCarusel";
+import Footer from "../components/footer/Footer";
 
 const App = () => {
   return (
