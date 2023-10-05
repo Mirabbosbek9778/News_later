@@ -5,7 +5,7 @@ import LineHight from "../components/line/LineHeight";
 import Film from "../components/priview/Film";
 import Carusel from "../components/swiper/Carusel";
 import FilterCarusel from "../components/swiper/filterCarusel/FilterCarusel";
-import ConBox from "../components/body/conBody/ConBox";
+import ConBox from "../components/body/generalBody/ConBox";
 import General from "../components/swiper/general/General";
 import Description from "../components/description/Description";
 import Media from "../components/media/Media";

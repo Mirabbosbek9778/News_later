@@ -1,6 +1,6 @@
 import { Cybok, DateImage, ImageText } from "../../../assets/iconsAll";
 import { Wrapper, Container } from "./styl";
-const ConBox = () => {
+const GeneralBody = () => {
   return (
     <Wrapper className="w-full">
       <Container>
@@ -16,4 +16,4 @@ const ConBox = () => {
   );
 };
 
-export default ConBox;
+export default GeneralBody;
