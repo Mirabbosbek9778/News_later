@@ -1,3 +1,8 @@
+import BrandCarusel from "../components/brandCarusel/BrandCarusel";
+import Description from "../components/description/Description";
+import Footer from "../components/footer/Footer";
+import Media from "../components/media/Media";
+import General from "../components/swiper/general/General";
 import {
   Header,
   LineHight,
@@ -24,6 +29,16 @@ const App = () => {
       <FilterCarusel />
       <LineHight />
       <GenericCards />
+      <LineHight />
+      <General />
+      <LineHight />
+      <Description />
+      <LineHight />
+      <Media />
+      <LineHight />
+      <BrandCarusel />
+      <LineHight />
+      <Footer />
     </div>
   );
 };

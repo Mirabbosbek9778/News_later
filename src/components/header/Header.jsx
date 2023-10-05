@@ -1,5 +1,5 @@
 import { DownOutlined } from "@ant-design/icons";
-import { Button, Dropdown, message } from "antd";
+import { Button, Dropdown } from "antd";
 import { Facebook, Logo, Telegram, Youtube } from "../../assets/iconsAll";
 
 const Header = () => {
@@ -18,9 +18,6 @@ const Header = () => {
     },
   ];
 
-  const handleitemsClick = (item) => {
-    message.info(<h1>Service Not Found</h1>);
-  };
   return (
     <div className="h-[113px] bg-[#111] flex text-white flex-col items-center w-full justify-center z-100">
       <div className="flex justify-between items-center">

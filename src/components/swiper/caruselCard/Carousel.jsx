@@ -6,23 +6,22 @@ import {
 import { Container, Sviper, SviperSlide, Wrapper } from "./style";
 import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper/modules";
 
-const CarouselFilm = () => {
+const CarouselFilm = (props) => {
   return (
-    <Wrapper>
+    <div>
       <Container>
-        <div className="pt-6"></div>
         <Sviper
           slidesPerView={4}
-          centeredSlides={false && true}
-          slidesPerGroupSkip={1}
+          centeredSlides={false}
+          slidesPerGroupSkip={4}
           grabCursor={true}
           keyboard={{
-            enabled: true,
+            enabled: false,
           }}
           breakpoints={{
             800: {
               slidesPerView: 4,
-              slidesPerGroup: 2,
+              slidesPerGroup: 4,
             },
           }}
           navigation={true}
@@ -30,23 +29,28 @@ const CarouselFilm = () => {
           className="mySwiper"
         >
           <SviperSlide>
-            <img src={CaruselCard1} />
+            <img src={CaruselCard1} className="relative" />
+            <p className="absolute left-4 top-[280px]">{props?.title}</p>
           </SviperSlide>
           <SviperSlide>
-            <img src={CaruselCard2} />
+            <img src={CaruselCard2} className="relative" />
+            <p className="absolute left-4 top-[280px]">{props?.title}</p>
           </SviperSlide>
           <SviperSlide>
-            <img src={CaruselCard3} />
+            <img src={CaruselCard3} className="relative" />
+            <p className="absolute left-4 top-[280px]">{props?.title}</p>
           </SviperSlide>
           <SviperSlide>
-            <img src={CaruselCard2} />
+            <img src={CaruselCard2} className="relative" />
+            <p className="absolute left-4 top-[280px]">{props?.title}</p>
           </SviperSlide>
           <SviperSlide>
-            <img src={CaruselCard1} />
+            <img src={CaruselCard1} className="relative" />
+            <p className="absolute left-4 top-[280px]">{props?.title}</p>
           </SviperSlide>
         </Sviper>
       </Container>
-    </Wrapper>
+    </div>
   );
 };
 

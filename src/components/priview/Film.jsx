@@ -1,5 +1,4 @@
 import { Button } from "antd";
-import React from "react";
 import { Wrapper, Container, Linefilm } from "./style";
 import { DownOutlined } from "@ant-design/icons";
 import CarouselFilm from "../swiper/caruselCard/Carousel";

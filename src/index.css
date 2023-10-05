@@ -13,6 +13,7 @@
 }
 .bottomLigth:hover {
   border-bottom: 2px solid #c38814;
+  color: #c38814;
 }
 .hoverIcons:hover {
   border: 2px solid #ebad2d;

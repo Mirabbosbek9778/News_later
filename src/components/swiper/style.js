@@ -16,14 +16,20 @@ const Container = styled.div`
   margin: 0 0 0 20px;
 `;
 
-const Img = styled.img``;
+const Img = styled.img`
+  display: flex;
+  gap: 10px;
+`;
 const Sviper = styled(Swiper)`
   width: 100%;
   display: flex;
-  gap: 10px;
+  gap: 100px;
   height: 100%;
 `;
-const SviperSlide = styled(SwiperSlide)``;
+const SviperSlide = styled(SwiperSlide)`
+  display: flex;
+  gap: 5px;
+`;
 
 const SwiperText = styled.div`
   color: #fff;

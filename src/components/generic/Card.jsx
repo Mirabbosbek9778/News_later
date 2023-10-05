@@ -18,11 +18,11 @@ const Cards = () => {
           Алдияр Байракимов, режиссер нашумевшего казахского фильма
           «Паралимпиец»:
         </Content>
-        <Content size="true" className="pl-4 pr-4">
+        <Content size={true} className="pl-4 pr-4">
           12.04.2023
         </Content>
         <div className="flex justify-between pl-4 pr-4">
-          <Content colur="true">Перейти</Content>
+          <Content colur={true}>Перейти</Content>
           <img src={ArrowRight} />
         </div>
       </div>

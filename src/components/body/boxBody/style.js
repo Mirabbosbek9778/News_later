@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
-  background-image: url("https://www.tiffest.uz/assets/main-bg-2674f033.png");
-  background-size: cover;
+  background-image: url("	https://www.tiffest.uz/assets/bg-decor-7d21ae27.svg");
+  background-position: center center;
+  background-size: 100%;
+  background-color: #181818;
   display: flex;
   justify-content: center;
   cursor: pointer;

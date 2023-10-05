@@ -7,7 +7,11 @@ const GenericCards = () => {
     <Wrapper>
       <Container>
         <Alltext title="Мастер-класс" />
-        <SmallCard />
+        <a href="/card" className="flex flex-col gap-4">
+          <SmallCard />
+          <SmallCard />
+          <SmallCard />
+        </a>
       </Container>
     </Wrapper>
   );

@@ -1,6 +1,5 @@
 import { LogoSmall } from "../../../assets/iconsAll";
 import Alltext from "../../allText/Alltext";
-import LineHight from "../../line/LineHeight";
 import { Linefilm } from "../../priview/style";
 import { Box, Text, Wrapper } from "./style";
 

@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Wrapper = styled.div`
   width: 100%;
   display: flex;
-  align-items: center;
 `;
 
 const Container = styled.div`
@@ -12,6 +11,8 @@ const Container = styled.div`
   width: 100%;
   display: flex;
   gap: 5px;
+  cursor: pointer;
+  color: white;
 `;
 
 const Img = styled.img``;
@@ -22,7 +23,8 @@ const Sviper = styled(Swiper)`
   height: 100%;
 `;
 const SviperSlide = styled(SwiperSlide)`
-  zoom: 100%;
+  display: flex;
+  gap: 10px;
 `;
 
 export { Wrapper, Sviper, SviperSlide, Container, Img };
