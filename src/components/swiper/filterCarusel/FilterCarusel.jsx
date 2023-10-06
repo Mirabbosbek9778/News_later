@@ -1,7 +1,6 @@
 import Alltext from "../../allText/Alltext";
 import { Button } from "antd";
 import { DownOutlined } from "@ant-design/icons";
-// import { Container, Wrapper } from "./style";
 import { Wrapper, Box } from "../../body/boxBody/style";
 import CarouselFilm from "../caruselCard/Carousel";
 

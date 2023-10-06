@@ -11,20 +11,20 @@ const Header = () => {
             <a href="/home">
               <img src={Logo} />
             </a>
-            <h1 className="pl-[89px] textHeader bottomLigth">
+            <h1 className="ml-[89px] textHeader bottomLigth ">
               <a href="/news">Новости</a>
             </h1>
             <Button className="text-white h-10 flex items-center justify-center textHeader ml-2 border-none">
               Кинопоказы
-              <DownOutlined className="w-[19px] h-[19px] pt-1" />
+              <DownOutlined />
             </Button>
-            <Button className="text-white h-10 flex items-center justify-center textHeader ml-2 border-none">
+            <Button className="text-white h-10 flex items-center justify-center textHeader gap-2 border-none">
               Лица
-              <DownOutlined className="w-[19px] h-[19px] pt-1" />
+              <DownOutlined />
             </Button>
-            <Button className="text-white h-10 flex items-center justify-center textHeader ml-2 border-none">
+            <Button className="text-white h-10 flex items-center justify-center textHeader gap-2 border-none">
               Программа
-              <DownOutlined className="w-[19px] h-[19px] pt-1" />
+              <DownOutlined />
             </Button>
             <h1 className="textHeader bottomLigth">
               <a href="/Media">Медиа</a>

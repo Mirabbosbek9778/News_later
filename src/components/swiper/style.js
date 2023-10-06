@@ -30,6 +30,7 @@ const Sviper = styled(Swiper)`
 const SviperSlide = styled(SwiperSlide)`
   display: flex;
   gap: 5px;
+  padding-left: 21px;
 `;
 
 const SwiperText = styled.div`

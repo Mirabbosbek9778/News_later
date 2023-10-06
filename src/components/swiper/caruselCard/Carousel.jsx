@@ -18,12 +18,11 @@ const CarouselFilm = (props) => {
           breakpoints={{
             800: {
               slidesPerView: 4,
-              slidesPerGroup: 4,
+              slidesPerGroup: 3,
             },
           }}
           navigation={true}
           modules={[Scrollbar, Navigation, Pagination]}
-          className="mySwiper"
         >
           <SviperSlide>
             <img src={CaruselCard1} className="relative" />

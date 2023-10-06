@@ -20,11 +20,11 @@ const Sviper = styled(Swiper)`
   max-width: 100%;
   display: flex;
   gap: 10px;
-  height: 100%;
 `;
 const SviperSlide = styled(SwiperSlide)`
   display: flex;
   gap: 10px;
+  padding-left: 40px;
 `;
 
 export { Wrapper, Sviper, SviperSlide, Container, Img };

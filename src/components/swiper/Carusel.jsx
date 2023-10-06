@@ -15,7 +15,6 @@ const Carusel = () => {
         <Alltext title={"Новости"} />
         <div className="pt-16"></div>
         <Sviper
-        
           slidesPerView={1}
           centeredSlides={false}
           slidesPerGroupSkip={1}
