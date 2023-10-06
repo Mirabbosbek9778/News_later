@@ -13,7 +13,8 @@ const Wrapper = styled.div`
 const Container = styled.div`
   max-width: 1440px;
   width: 100%;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 50px;
+  min-width: 390px;
 `;
 
 const Img = styled.img`

@@ -1,13 +1,14 @@
 import { Button } from "antd";
-import { Wrapper, Container, Linefilm } from "./style";
+import {  Linefilm } from "./style";
 import { DownOutlined } from "@ant-design/icons";
 import CarouselFilm from "../swiper/caruselCard/Carousel";
 import Smalltext from "../allText/smalText/Smalltext";
+import { Wrapper,Box } from "../body/boxBody/style";
 
 const Film = () => {
   return (
     <Wrapper>
-      <Container>
+      <Box>
         <div className="flex justify-between items-center">
           <Button className="text-white border-b textHeader flex films border-none">
             Кинопоказы
@@ -40,7 +41,7 @@ const Film = () => {
           <Linefilm indent="true" />
           <CarouselFilm />
         </div>
-      </Container>
+      </Box>
     </Wrapper>
   );
 };

@@ -1,5 +1,5 @@
-import BoxBody from "../components/body/boxBody/Boxbody"; // Import BoxBody directly
-import GenericCards from "../components/generic/genericCard/GenericCards"; // Import GenericCards directly
+import BoxBody from "../components/body/boxBody/Boxbody";
+import GenericCards from "../components/generic/genericCard/GenericCards";
 import Header from "../components/header/Header";
 import LineHight from "../components/line/LineHeight";
 import Film from "../components/priview/Film";
@@ -11,6 +11,8 @@ import Description from "../components/description/Description";
 import Media from "../components/media/Media";
 import BrandCarusel from "../components/brandCarusel/BrandCarusel";
 import Footer from "../components/footer/Footer";
+import Persons from "../components/persons/Persons";
+import ProgramCard from "../components/generic/programCard/ProgramCard";
 
 const App = () => {
   return (
@@ -26,13 +28,17 @@ const App = () => {
       <LineHight />
       <FilterCarusel />
       <LineHight />
-      <GenericCards />
-      <LineHight />
       <General />
       <LineHight />
-      <Description />
+      <ProgramCard />
       <LineHight />
       <Media />
+      <LineHight />
+      <GenericCards />
+      <LineHight />
+      <Persons />
+      <LineHight />
+      <Description />
       <LineHight />
       <BrandCarusel />
       <LineHight />

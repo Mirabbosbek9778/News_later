@@ -1,14 +1,16 @@
-import { Container, Wrapper } from "./style";
+// import { Container, Wrapper } from "./style";
 import Alltext from "../allText/Alltext";
 import OnlyCard from "../swiper/only/OnlyCard";
+import { Wrapper, Box } from "../body/boxBody/style";
 
 const BrandCarusel = () => {
   return (
-    <Wrapper>
-      <Container>
+    <Wrapper hello>
+      <Box>
         <Alltext title={"Наши партнеры"} />
+        <div className="pt-16"></div>
         <OnlyCard />
-      </Container>
+      </Box>
     </Wrapper>
   );
 };

@@ -23,3 +23,11 @@
 .films {
   border-bottom: 2px solid #c38814;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(18, 18, 18, 0.9);
+  z-index: 100;
+}

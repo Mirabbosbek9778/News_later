@@ -1,29 +1,25 @@
-import { Container, Sviper, SviperSlide, SwiperText, Wrapper } from "./style";
-import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper/modules";
-
 import "swiper/css";
 import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Cards from "../generic/Card";
 import Alltext from "../allText/Alltext";
+import { Sviper, SviperSlide } from "./style";
+import { Scrollbar, Navigation, Pagination } from "swiper/modules";
+import { Box, Wrapper } from "../body/boxBody/style";
 
 const Carusel = () => {
   return (
-    <Wrapper>
-      <Container>
-        <SwiperText className="bottomLigth">
-          <Alltext title={"Новости"} />
-        </SwiperText>
+    <Wrapper hello>
+      <Box>
+        <Alltext title={"Новости"} />
         <div className="pt-16"></div>
         <Sviper
+        
           slidesPerView={1}
           centeredSlides={false}
           slidesPerGroupSkip={1}
           grabCursor={true}
-          keyboard={{
-            enabled: true,
-          }}
           breakpoints={{
             700: {
               slidesPerView: 4,
@@ -31,8 +27,7 @@ const Carusel = () => {
             },
           }}
           navigation={true}
-          modules={[Keyboard, Scrollbar, Navigation, Pagination]}
-          className="mySwiper"
+          modules={[Scrollbar, Navigation, Pagination]}
         >
           <SviperSlide>
             <Cards />
@@ -56,7 +51,7 @@ const Carusel = () => {
             <Cards />
           </SviperSlide>
         </Sviper>
-      </Container>
+      </Box>
     </Wrapper>
   );
 };

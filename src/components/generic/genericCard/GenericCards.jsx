@@ -1,18 +1,18 @@
 import Alltext from "../../allText/Alltext";
 import SmallCard from "../smallCard/SmallCard";
-import { Container, Wrapper } from "./style";
+import { Wrapper, Box } from "../../body/boxBody/style";
 
 const GenericCards = () => {
   return (
     <Wrapper>
-      <Container>
+      <Box>
         <Alltext title="Мастер-класс" />
-        <a href="/card" className="flex flex-col gap-4">
+        <a href="/card" className="flex flex-col gap-4 pt-10">
           <SmallCard />
           <SmallCard />
           <SmallCard />
         </a>
-      </Container>
+      </Box>
     </Wrapper>
   );
 };

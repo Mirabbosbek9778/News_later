@@ -15,11 +15,18 @@ const Wrapper = styled.div`
 const Container = styled.div`
   max-width: 1440px;
   width: 100%;
+  min-width: 390px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 32px 0 32px;
 `;
 
 const Linefilm = styled.div`
   max-width: 1440px;
   width: 100%;
+
   height: ${({ indent }) => (indent ? "2px" : "3px")};
   background: ${({ indent }) => (indent ? "#ABABAB" : "yellow")};
 `;

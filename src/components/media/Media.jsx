@@ -1,4 +1,4 @@
-import { Container, Ruler, Wrapper } from "./style";
+import { Ruler } from "./style";
 import {
   Media11,
   Media12,
@@ -11,11 +11,12 @@ import Alltext from "../allText/Alltext";
 import { Button } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 import Smalltext from "../allText/smalText/Smalltext";
+import { Wrapper, Box } from "../body/boxBody/style";
 
 const Media = () => {
   return (
     <Wrapper>
-      <Container>
+      <Box>
         <div className="flex items-center justify-between">
           <Alltext title={"Медиа"} />
           <Button className="text-white">
@@ -30,7 +31,7 @@ const Media = () => {
           </div>
           <Ruler></Ruler>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-3 pt-8">
           <div className="flex flex-col gap-2 w-full h-full ">
             <img src={Media11} className="w-full h-full" />
             <img src={Media12} className="w-full h-full" />
@@ -52,9 +53,9 @@ const Media = () => {
             <Smalltext title={"Видео"} />
             <Smalltext title={"Смотереть"} />
           </div>
-          <Ruler></Ruler>
+            <Ruler></Ruler>
         </div>
-        <div className="flex gap-3 ">
+        <div className="flex gap-3 pt-8">
           <div className="flex flex-col gap-2 w-full h-full ">
             <img src={Media11} className="w-full h-full" />
             <img src={Media12} className="w-full h-full" />
@@ -71,7 +72,7 @@ const Media = () => {
           </div>
           <img src={Media13} />
         </div>
-      </Container>
+      </Box>
     </Wrapper>
   );
 };

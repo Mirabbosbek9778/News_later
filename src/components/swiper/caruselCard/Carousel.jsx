@@ -3,8 +3,8 @@ import {
   CaruselCard2,
   CaruselCard3,
 } from "../../../assets/iconsAll";
-import { Container, Sviper, SviperSlide, Wrapper } from "./style";
-import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper/modules";
+import { Container, Sviper, SviperSlide } from "./style";
+import { Scrollbar, Navigation, Pagination } from "swiper/modules";
 
 const CarouselFilm = (props) => {
   return (
@@ -15,9 +15,6 @@ const CarouselFilm = (props) => {
           centeredSlides={false}
           slidesPerGroupSkip={4}
           grabCursor={true}
-          keyboard={{
-            enabled: false,
-          }}
           breakpoints={{
             800: {
               slidesPerView: 4,
@@ -25,7 +22,7 @@ const CarouselFilm = (props) => {
             },
           }}
           navigation={true}
-          modules={[Keyboard, Scrollbar, Navigation, Pagination]}
+          modules={[Scrollbar, Navigation, Pagination]}
           className="mySwiper"
         >
           <SviperSlide>

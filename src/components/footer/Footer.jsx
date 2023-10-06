@@ -1,14 +1,14 @@
-import { Container, TextFooter, Wrapper } from "./style";
+import { TextFooter } from "./style";
 import Alltext from "../allText/Alltext";
-// import Smalltext from "../allText/smalText/Smalltext";
 import { Facebook, Telegram, Youtube } from "../../assets/iconsAll";
+import { Box, Wrapper } from "../body/boxBody/style";
 
 const Footer = () => {
   return (
     <Wrapper>
-      <Container>
+      <Box>
         <Alltext title={"Контакты"} />
-        <div className="flex justify-between gap-3 cursor-pointer">
+        <div className="flex justify-between gap-3 cursor-pointer pt-16">
           <div>
             <div className="flex flex-col gap-6">
               <TextFooter>Телефоны</TextFooter>
@@ -84,7 +84,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </Box>
     </Wrapper>
   );
 };

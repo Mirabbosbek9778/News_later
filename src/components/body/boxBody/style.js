@@ -2,18 +2,24 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
-  background-image: url("	https://www.tiffest.uz/assets/bg-decor-7d21ae27.svg");
+  background-image: url("https://www.tiffest.uz/assets/bg-decor-7d21ae27.svg");
   background-position: center center;
+  background-image: ${({ hello }) =>
+    hello ? "none" : "https://www.tiffest.uz/assets/bg-decor-7d21ae27.svg"};
   background-size: 100%;
   background-color: #181818;
   display: flex;
   justify-content: center;
   cursor: pointer;
   padding: 140px 0 140px;
+  background-color: ${({ hello }) => {
+    hello ? "#111" : "#181818";
+  }};
 `;
 
 export const Box = styled.div`
   max-width: 1440px;
+  min-width: 700px;
   width: 100%;
   display: flex;
   justify-content: center;

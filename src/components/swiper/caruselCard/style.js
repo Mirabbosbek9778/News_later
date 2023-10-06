@@ -17,7 +17,7 @@ const Container = styled.div`
 
 const Img = styled.img``;
 const Sviper = styled(Swiper)`
-  width: 100%;
+  max-width: 100%;
   display: flex;
   gap: 10px;
   height: 100%;

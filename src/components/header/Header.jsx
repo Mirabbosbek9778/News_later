@@ -4,9 +4,9 @@ import { Facebook, Logo, Telegram, Youtube } from "../../assets/iconsAll";
 
 const Header = () => {
   return (
-    <div className="h-[113px] bg-[#111] flex text-white flex-col items-center w-full justify-center">
-      <div className="flex justify-between items-center max-w-[1440px]">
-        <div className="flex items-center gap-16">
+    <div className="h-[113px] bg-[#111] flex text-white flex-col items-center w-full justify-center min-w-[390px] header">
+      <div className="flex justify-between items-center max-w-[1440px] w-full">
+        <div className="flex items-center gap-16 min-w-[390px]">
           <div className="flex items-center gap-8">
             <a href="/home">
               <img src={Logo} />
