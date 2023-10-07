@@ -1,15 +1,12 @@
-import { Cybok, DateImage, ImageText } from "../../../assets/iconsAll";
+import { DefaultingImage } from "../../../assets/iconsAll";
 import { Wrapper, Container } from "./styl";
 const GeneralBody = () => {
   return (
     <Wrapper className="w-full">
       <Container>
-        <div>
-          <img src={Cybok} />
-        </div>
-        <div className="mr-[256px]">
-          <img src={DateImage} />
-          <img src={ImageText} />
+        <div className="flex justify-between items-center">
+          <img src={DefaultingImage} />
+        
         </div>
       </Container>
     </Wrapper>
@@ -17,3 +14,6 @@ const GeneralBody = () => {
 };
 
 export default GeneralBody;
+// <img src={ImageText} />
+// <img src={DateImage} />
+// <img src={Cybok}/>

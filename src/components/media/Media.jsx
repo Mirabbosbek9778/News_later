@@ -8,10 +8,9 @@ import {
   Media41,
 } from "../../assets/iconsAll";
 import Alltext from "../allText/Alltext";
-import { Button } from "antd";
-import { DownOutlined } from "@ant-design/icons";
 import Smalltext from "../allText/smalText/Smalltext";
 import { Wrapper, Box } from "../body/boxBody/style";
+import DropdownItem from "../header/dropDown/Dropdown";
 
 const Media = () => {
   return (
@@ -19,10 +18,7 @@ const Media = () => {
       <Box>
         <div className="flex items-center justify-between">
           <Alltext title={"Медиа"} />
-          <Button className="text-white">
-            2023 г
-            <DownOutlined />
-          </Button>
+          <DropdownItem title={" 2023 г"} />
         </div>
         <div className="flex flex-col pt-16">
           <div className="flex items-center justify-between">
@@ -33,42 +29,42 @@ const Media = () => {
         </div>
         <div className="flex gap-3 pt-8">
           <div className="flex flex-col gap-2 w-full h-full ">
-            <img src={Media11} className="w-full h-full" />
-            <img src={Media12} className="w-full h-full" />
+            <img src={Media11} className="hoverCards" />
+            <img src={Media12} className="hoverCards" />
           </div>
-          <img src={Media13} />
+          <img src={Media13} className="hoverCards" />
           <div className="flex flex-col gap-2 w-full h-full">
-            <img src={Media31} className="w-full h-full" />
-            <img src={Media32} className="w-full h-full" />
+            <img src={Media31} className="hoverCards" />
+            <img src={Media32} className="hoverCards" />
           </div>
-          <img src={Media41} />
+          <img src={Media41} className="hoverCards" />
           <div className="flex flex-col gap-2 w-full h-full">
-            <img src={Media31} className="w-full h-full" />
-            <img src={Media32} className="w-full h-full" />
+            <img src={Media31} className="hoverCards" />
+            <img src={Media32} className="hoverCards" />
           </div>
-          <img src={Media13} />
+          <img src={Media13} className="hoverCards" />
         </div>
         <div className="flex flex-col pt-10">
           <div className="flex items-center justify-between">
             <Smalltext title={"Видео"} />
             <Smalltext title={"Смотереть"} />
           </div>
-            <Ruler></Ruler>
+          <Ruler></Ruler>
         </div>
         <div className="flex gap-3 pt-8">
           <div className="flex flex-col gap-2 w-full h-full ">
-            <img src={Media11} className="w-full h-full" />
-            <img src={Media12} className="w-full h-full" />
+            <img src={Media11} className="hoverCards" />
+            <img src={Media12} className="hoverCards" />
           </div>
-          <img src={Media13} />
+          <img src={Media13} className="hoverCards" />
           <div className="flex flex-col gap-2 w-full h-full">
-            <img src={Media31} className="w-full h-full" />
-            <img src={Media32} className="w-full h-full" />
+            <img src={Media31} className="hoverCards" />
+            <img src={Media32} className="hoverCards" />
           </div>
-          <img src={Media41} />
+          <img src={Media41} className="hoverCards" />
           <div className="flex flex-col gap-2 w-full h-full">
-            <img src={Media31} className="w-full h-full" />
-            <img src={Media32} className="w-full h-full" />
+            <img src={Media31} className="hoverCards" />
+            <img src={Media32} className="hoverCards" />
           </div>
           <img src={Media13} />
         </div>

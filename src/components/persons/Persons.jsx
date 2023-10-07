@@ -6,7 +6,9 @@ const Persons = () => {
   return (
     <Wrapper hello>
       <Box>
-        <Alltext title={"Жюри"} />
+        <div className="pl-10">
+          <Alltext title={"Жюри"} />
+        </div>
         <div className="pt-16"></div>
         <CarouselFilm title={"Жораев Темур"} hello />
       </Box>

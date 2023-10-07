@@ -6,7 +6,7 @@ import { Box, Text, Wrapper } from "./style";
 const BoxBody = () => {
   return (
     <Wrapper>
-      <Box>
+      <Box index>
         <Alltext title={"TIFFEST-2022"} />
         <Text className="pt-16" tex="true">
           <b>TIFFEST-2022</b>

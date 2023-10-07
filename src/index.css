@@ -11,17 +11,22 @@
   cursor: pointer;
   line-height: 24px;
 }
-.bottomLigth:hover {
-  border-bottom: 2px solid #c38814;
-  color: #c38814;
-}
+
 .hoverIcons:hover {
   border: 2px solid #ebad2d;
   border-radius: 50%;
 }
+.hoverCards:hover {
+  border: 2px solid #c38814;
+}
 
 .films {
   border-bottom: 2px solid #c38814;
+}
+.allhovers:hover {
+  border: 1px solid #ebad2d;
+  color: #ebad2d;
+  border-bottom: 1px solid #ebad2d;
 }
 
 .header {

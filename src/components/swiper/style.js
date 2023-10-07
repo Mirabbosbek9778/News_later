@@ -23,14 +23,41 @@ const Img = styled.img`
 `;
 const Sviper = styled(Swiper)`
   width: 100%;
+  border: 1px solid red;
   display: flex;
   gap: 100px;
   height: 100%;
+  .swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    background: #575757;
+    color: #8e8e8e;
+    border-radius: 50%;
+    border: 1px solid #575757;
+    &:hover {
+      background: #575757;
+      color: #ebad2d;
+      border: 1px solid #ebad2d;
+    }
+  }
+  .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background: #575757;
+    color: #8e8e8e;
+    border-radius: 50%;
+    border: 1px solid #575757;
+    &:hover {
+      background: #575757;
+      color: #ebad2d;
+      border: 1px solid #ebad2d;
+    }
+  }
 `;
 const SviperSlide = styled(SwiperSlide)`
-  display: flex;
+  /* display: flex;
   gap: 5px;
-  padding-left: 21px;
+  padding-left: 21px; */
 `;
 
 const SwiperText = styled.div`

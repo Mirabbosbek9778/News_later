@@ -23,7 +23,8 @@ export const Box = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: ${({ column }) => (column ? "none" : "column")};
+  z-index: ${({ index }) => (index ? "1000" : "none")};
   padding: 0 32px 0 32px;
 `;
 

@@ -22,9 +22,9 @@ const TextFooter = styled.div`
   font-style: normal;
   font-size: ${({ size }) => (size ? "18px" : "24px")};
   color: ${({ coler }) => (coler ? "#EBAD2D" : "#f2f2f2")};
-  :hover {
+  &:hover {
     border-bottom: ${({ coler }) =>
-      coler ? "1px solid white" : "1px solid red"};
+      coler ? "1px solid white" : "1px solid #EBAD2D"};
   }
   font-weight: ${({ size }) => (size ? "400" : "600")};
   line-height: ${({ size }) => (size ? "24px" : "32px")};

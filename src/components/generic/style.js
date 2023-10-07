@@ -4,7 +4,10 @@ const Container = styled.div`
   width: 334px;
   height: 434px;
   cursor: pointer;
-  border: 1px solid white;
+  &:hover {
+    border: 1px solid #c38814;
+  }
+  color: white;
 `;
 
 const Img = styled.div`

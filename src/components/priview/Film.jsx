@@ -1,20 +1,18 @@
-import { Button } from "antd";
-import {  Linefilm } from "./style";
-import { DownOutlined } from "@ant-design/icons";
+import { Linefilm } from "./style";
 import CarouselFilm from "../swiper/caruselCard/Carousel";
 import Smalltext from "../allText/smalText/Smalltext";
-import { Wrapper,Box } from "../body/boxBody/style";
+import { Wrapper, Box } from "../body/boxBody/style";
+import DropdownItem from "../header/dropDown/Dropdown";
 
 const Film = () => {
   return (
     <Wrapper>
       <Box>
         <div className="flex justify-between items-center">
-          <Button className="text-white border-b textHeader flex films border-none">
-            Кинопоказы
-            <DownOutlined className="w-[19px] h-[19px] pt-1 rotate-[270deg] " />
-          </Button>
-          <Button className="text-white bg-[#454545]">Оставить заявку</Button>
+          <DropdownItem title={"Кинопоказы"} />
+          <button className="text-white bg-[#454545] w-[180px] h-12 rounded-lg allhovers">
+            Оставить заявку
+          </button>
         </div>
         <div className="flex flex-col gap-4 pt-16">
           <Smalltext title={"Кино за 5 дней"} />

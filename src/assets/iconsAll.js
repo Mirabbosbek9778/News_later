@@ -21,8 +21,23 @@ import Media41 from "../assets/images/media41.png";
 import Brand1 from "../assets/images/brand1.png";
 import Brand2 from "../assets/images/brand2.png";
 import Brand3 from "../assets/images/brand3.png";
+import Arrow from "../assets/icons/arrow.svg";
+import BigCybok from "../assets/images/bigcybokK.webp";
+import DefaultingImage from "../assets/images/body.png";
+import ResponsiveCybok from "../assets/images/responsiveCybok.png";
+import Card1 from "../assets/images/card1.png";
+import Card2 from "../assets/images/card2.png";
+import Card3 from "../assets/images/card3.png";
+import Card4 from "../assets/images/card4.png";
 
 export {
+  Card2,
+  Card3,
+  Card4,
+  Card1,
+  ResponsiveCybok,
+  DefaultingImage,
+  BigCybok,
   Facebook,
   Logo,
   Telegram,
@@ -45,5 +60,6 @@ export {
   Media41,
   Brand1,
   Brand2,
+  Arrow,
   Brand3,
 };

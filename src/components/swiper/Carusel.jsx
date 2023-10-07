@@ -12,7 +12,9 @@ const Carusel = () => {
   return (
     <Wrapper hello>
       <Box>
-        <Alltext title={"Новости"} />
+        <div className="pl-5">
+          <Alltext title={"Новости"} />
+        </div>
         <div className="pt-16"></div>
         <Sviper
           slidesPerView={1}
@@ -28,27 +30,10 @@ const Carusel = () => {
           navigation={true}
           modules={[Scrollbar, Navigation, Pagination]}
         >
-          <SviperSlide>
+          <SviperSlide className="border">
             <Cards />
           </SviperSlide>
-          <SviperSlide>
-            <Cards />
-          </SviperSlide>
-          <SviperSlide>
-            <Cards />
-          </SviperSlide>
-          <SviperSlide>
-            <Cards />
-          </SviperSlide>
-          <SviperSlide>
-            <Cards />
-          </SviperSlide>
-          <SviperSlide>
-            <Cards />
-          </SviperSlide>
-          <SviperSlide>
-            <Cards />
-          </SviperSlide>
+       
         </Sviper>
       </Box>
     </Wrapper>

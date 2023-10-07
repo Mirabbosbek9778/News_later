@@ -25,24 +25,24 @@ const CarouselFilm = (props) => {
           modules={[Scrollbar, Navigation, Pagination]}
         >
           <SviperSlide>
-            <img src={CaruselCard1} className="relative" />
-            <p className="absolute left-4 top-[280px]">{props?.title}</p>
+            <img src={CaruselCard1} className="relative hoverCards" />
+            <p className="absolute left-16 top-[320px]">{props?.title}</p>
           </SviperSlide>
           <SviperSlide>
-            <img src={CaruselCard2} className="relative" />
-            <p className="absolute left-4 top-[280px]">{props?.title}</p>
+            <img src={CaruselCard2} className="relative hoverCards" />
+            <p className="absolute left-16 top-[320px]">{props?.title}</p>
           </SviperSlide>
           <SviperSlide>
-            <img src={CaruselCard3} className="relative" />
-            <p className="absolute left-4 top-[280px]">{props?.title}</p>
+            <img src={CaruselCard3} className="relative hoverCards" />
+            <p className="absolute left-16 top-[320px]">{props?.title}</p>
           </SviperSlide>
           <SviperSlide>
-            <img src={CaruselCard2} className="relative" />
-            <p className="absolute left-4 top-[280px]">{props?.title}</p>
+            <img src={CaruselCard2} className="relative hoverCards" />
+            <p className="absolute left-16 top-[320px]">{props?.title}</p>
           </SviperSlide>
           <SviperSlide>
-            <img src={CaruselCard1} className="relative" />
-            <p className="absolute left-4 top-[280px]">{props?.title}</p>
+            <img src={CaruselCard1} className="relative hoverCards" />
+            <p className="absolute left-16 top-[320px]">{props?.title}</p>
           </SviperSlide>
         </Sviper>
       </Container>

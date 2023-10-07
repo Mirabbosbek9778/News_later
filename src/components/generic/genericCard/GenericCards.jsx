@@ -10,7 +10,6 @@ const GenericCards = () => {
         <a href="/card" className="flex flex-col gap-4 pt-10">
           <SmallCard />
           <SmallCard />
-          <SmallCard />
         </a>
       </Box>
     </Wrapper>
