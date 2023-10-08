@@ -19,15 +19,20 @@ const DropdownItem = (props) => {
     },
   ];
 
+  const overlayStyle = {
+    background: "black",
+  };
+
   return (
     <div>
       <Dropdown
+        overlayStyle={overlayStyle}
         menu={{
           items,
         }}
         placement="bottom"
       >
-        <Button className="flex border-none  items-center gap-2">
+        <Button className="flex border-none items-center gap-2">
           <TextNavbar none>{props?.title}</TextNavbar>
           <img src={Arrow} />
         </Button>

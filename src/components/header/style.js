@@ -7,6 +7,11 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   padding: 24px 24px 24px 24px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  opacity: 0.9;
 `;
 
 const TextNavbar = styled.h1`

@@ -29,10 +29,10 @@
   border-bottom: 1px solid #ebad2d;
 }
 
-.header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background: rgba(18, 18, 18, 0.9);
-  z-index: 100;
+.borders {
+  border-radius: 8px;
+  background: #454545;
+}
+.borders:hover {
+  border: 1px solid #ebad2d;
 }

@@ -17,49 +17,6 @@ const Container = styled.div`
   min-width: 390px;
 `;
 
-const Img = styled.img`
-  display: flex;
-  gap: 10px;
-`;
-const Sviper = styled(Swiper)`
-  width: 100%;
-  border: 1px solid red;
-  display: flex;
-  gap: 100px;
-  height: 100%;
-  .swiper-button-prev {
-    width: 50px;
-    height: 50px;
-    background: #575757;
-    color: #8e8e8e;
-    border-radius: 50%;
-    border: 1px solid #575757;
-    &:hover {
-      background: #575757;
-      color: #ebad2d;
-      border: 1px solid #ebad2d;
-    }
-  }
-  .swiper-button-next {
-    width: 50px;
-    height: 50px;
-    background: #575757;
-    color: #8e8e8e;
-    border-radius: 50%;
-    border: 1px solid #575757;
-    &:hover {
-      background: #575757;
-      color: #ebad2d;
-      border: 1px solid #ebad2d;
-    }
-  }
-`;
-const SviperSlide = styled(SwiperSlide)`
-  /* display: flex;
-  gap: 5px;
-  padding-left: 21px; */
-`;
-
 const SwiperText = styled.div`
   color: #fff;
   font-family: Montserrat, sans-serif;
@@ -73,4 +30,41 @@ const SwiperText = styled.div`
   cursor: pointer;
 `;
 
+const Img = styled.img``;
+const Sviper = styled(Swiper)`
+  width: 100%;
+  height: 100%;
+  .swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    background: #575757;
+    color: #8e8e8e;
+    border-radius: 50%;
+    border: none;
+  }
+  .swiper-button-prev:hover {
+    border: 1px solid #ebad2d;
+    color: #ebad2d;
+  }
+  .swiper-button-next {
+    width: 50px;
+    height: 50px;
+    background: #575757;
+    color: #8e8e8e;
+    border-radius: 50%;
+    border: none;
+  }
+  .swiper-button-next:hover {
+    border: 1px solid #ebad2d;
+    color: #ebad2d;
+  }
+`;
+const SviperSlide = styled(SwiperSlide)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 export { Wrapper, Sviper, SviperSlide, Container, Img, SwiperText };
+
+// export { Wrapper, Sviper, SviperSlide, Container, Img, SwiperText };

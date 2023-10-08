@@ -1,4 +1,3 @@
-import { Button } from "antd";
 import Alltext from "../../allText/Alltext";
 import { Box, Wrapper } from "../../body/boxBody/style";
 import SmallCard from "../smallCard/SmallCard";
@@ -13,9 +12,10 @@ const ProgramCard = () => {
             <Alltext title={"Программа"} />
             <RightOutlined className="pt-2" />
           </div>
-          <Button className="text-white">
-            Скачать <DownloadOutlined />
-          </Button>
+          <button className="text-white w-[139px] h-12 borders flex gap-4 items-center justify-center">
+            <p>Скачать</p>
+            <DownloadOutlined />
+          </button>
         </div>
         <a href="/card" className="flex flex-col gap-4 pt-10">
           <SmallCard />
