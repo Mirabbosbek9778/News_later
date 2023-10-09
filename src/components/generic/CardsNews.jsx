@@ -2,7 +2,7 @@ import { ArrowRight } from "../../assets/iconsAll";
 import { cardInfo } from "../../mock/cardInfo";
 import { Content, Wrapper } from "./style";
 
-const Cards = () => {
+const ImportedCards = () => {
   return (
     <Wrapper>
       {cardInfo.map((item, index) => (
@@ -26,4 +26,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default ImportedCards;

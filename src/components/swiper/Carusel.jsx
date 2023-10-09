@@ -2,11 +2,11 @@ import "swiper/css";
 import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Cards from "../generic/Card";
 import Alltext from "../allText/Alltext";
 import { Box, Wrapper } from "../body/boxBody/style";
 import { Sviper, SviperSlide } from "./style";
 import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper/modules";
+import ImportedCards from "../generic/CardsNews";
 
 const Carusel = () => {
   return (
@@ -35,22 +35,22 @@ const Carusel = () => {
           className="mySwiper"
         >
           <SviperSlide>
-            <Cards />
+            <ImportedCards />
           </SviperSlide>
           <SviperSlide>
-            <Cards />
+            <ImportedCards />
           </SviperSlide>
           <SviperSlide>
-            <Cards />
+            <ImportedCards />
           </SviperSlide>
           <SviperSlide>
-            <Cards />
+            <ImportedCards />
           </SviperSlide>
           <SviperSlide>
-            <Cards />
+            <ImportedCards />
           </SviperSlide>
           <SviperSlide>
-            <Cards />
+            <ImportedCards />
           </SviperSlide>
         </Sviper>
       </Box>

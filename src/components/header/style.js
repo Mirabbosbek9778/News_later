@@ -10,8 +10,8 @@ const Wrapper = styled.div`
   overflow: hidden;
   position: fixed;
   top: 0;
-  z-index: 1000;
-  opacity: 0.9;
+  z-index: 10000;
+  opacity: calc(0.9);
 `;
 
 const TextNavbar = styled.h1`

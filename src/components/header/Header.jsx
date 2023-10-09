@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Wrapper>
       <Box column>
-        <div className="flex items-center justify-between gap-[85px]">
+        <div className="flex items-center justify-between gap-[85px] ">
           <div>
             <img src={Logo} />
           </div>
