@@ -5,6 +5,7 @@ import {
 } from "../../../assets/iconsAll";
 import { Container, Sviper, SviperSlide } from "./style";
 import { Scrollbar, Navigation, Pagination } from "swiper/modules";
+import PropTypes from "prop-types";
 
 const CarouselFilm = (props) => {
   return (
@@ -50,4 +51,7 @@ const CarouselFilm = (props) => {
   );
 };
 
+CarouselFilm.propTypes = {
+  title: PropTypes.string, 
+};
 export default CarouselFilm;

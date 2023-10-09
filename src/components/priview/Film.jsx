@@ -1,4 +1,4 @@
-import { Linefilm } from "./style";
+import { ButtonFilm, Linefilm } from "./style";
 import CarouselFilm from "../swiper/caruselCard/Carousel";
 import Smalltext from "../allText/smalText/Smalltext";
 import { Wrapper, Box } from "../body/boxBody/style";
@@ -10,9 +10,9 @@ const Film = () => {
       <Box>
         <div className="flex justify-between items-center">
           <DropdownItem title={"Кинопоказы"} />
-          <button className="text-white bg-[#454545] w-[180px] h-12 rounded-lg allhovers">
+          <ButtonFilm  >
             Оставить заявку
-          </button>
+          </ButtonFilm>
         </div>
         <div className="flex flex-col gap-4 pt-16">
           <Smalltext title={"Кино за 5 дней"} />

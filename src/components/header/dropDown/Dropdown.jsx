@@ -1,7 +1,8 @@
 import { Dropdown } from "antd";
 import { Arrow } from "../../../assets/iconsAll";
 import { TextNavbar } from "../style";
-import { Button } from "./style";
+import { Button, Image } from "./style";
+import PropTypes from "prop-types";
 
 const DropdownItem = (props) => {
   const items = [
@@ -9,32 +10,21 @@ const DropdownItem = (props) => {
       key: "1",
       label: <h1>hello world</h1>,
     },
-    {
-      key: "2",
-      label: <h1>hello world</h1>,
-    },
-    {
-      key: "3",
-      label: <h1>hello world</h1>,
-    },
   ];
-
-  const overlayStyle = {
-    background: "black",
+  DropdownItem.propTypes = {
+    title: PropTypes.string,
   };
-
   return (
     <div>
       <Dropdown
-        overlayStyle={overlayStyle}
         menu={{
           items,
         }}
         placement="bottom"
       >
-        <Button className="flex border-none items-center gap-2">
+        <Button>
           <TextNavbar none>{props?.title}</TextNavbar>
-          <img src={Arrow} />
+          <Image src={Arrow} />
         </Button>
       </Dropdown>
     </div>

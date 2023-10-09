@@ -26,8 +26,20 @@ const Container = styled.div`
 const Linefilm = styled.div`
   max-width: 1440px;
   width: 100%;
-
   height: ${({ indent }) => (indent ? "2px" : "3px")};
   background: ${({ indent }) => (indent ? "#ABABAB" : "yellow")};
 `;
-export { Wrapper, Container, Linefilm };
+
+const ButtonFilm = styled.button`
+  color: white;
+  background-color: #454545;
+  width: 180px;
+  height: 48px;
+  border-radius: 8px;
+  &:hover {
+    border: 1px solid #ebad2d;
+    color: #ebad2d;
+  }
+`;
+
+export { Wrapper, Container, Linefilm, ButtonFilm };
