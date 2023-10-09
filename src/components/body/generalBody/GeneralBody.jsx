@@ -6,7 +6,6 @@ const GeneralBody = () => {
       <Container>
         <div className="flex justify-between items-center">
           <img src={DefaultingImage} />
-        
         </div>
       </Container>
     </Wrapper>
@@ -14,6 +13,3 @@ const GeneralBody = () => {
 };
 
 export default GeneralBody;
-// <img src={ImageText} />
-// <img src={DateImage} />
-// <img src={Cybok}/>

@@ -1,7 +1,6 @@
 import Alltext from "../allText/Alltext";
 import Smalltext from "../allText/smalText/Smalltext";
 import { DescriptionImage } from "../../assets/iconsAll";
-// import { Container, Wrapper } from "./style";
 import { Ruler } from "../media/style";
 import { Wrapper, Box } from "../body/boxBody/style";
 
