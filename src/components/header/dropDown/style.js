@@ -18,4 +18,28 @@ const Image = styled.img`
   }
 `;
 
-export { Button, Image };
+const DropdownSelect = styled.div`
+  background-color: black;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid #ebad2d;
+  border-radius: 15px;
+  h1:hover {
+    color: ${({ press }) => (press ? "#ebad2d" : "white")};
+    background-color: #454545;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Monserrat, sans-serif;
+    border-radius: 10px;
+  }
+  width: 200px;
+  height: 125px;
+`;
+
+export { Button, Image, DropdownSelect };

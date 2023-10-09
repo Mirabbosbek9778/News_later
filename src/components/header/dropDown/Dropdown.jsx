@@ -1,27 +1,25 @@
 import { Dropdown } from "antd";
 import { Arrow } from "../../../assets/iconsAll";
 import { TextNavbar } from "../style";
-import { Button, Image } from "./style";
+import { Button, DropdownSelect, Image } from "./style";
 import PropTypes from "prop-types";
 
 const DropdownItem = (props) => {
   const items = [
-    {
-      key: "1",
-      label: <h1>hello world</h1>,
-    },
+    <DropdownSelect press key="unique-key">
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+      <h1>hello</h1>
+    </DropdownSelect>,
   ];
+
   DropdownItem.propTypes = {
     title: PropTypes.string,
   };
   return (
     <div>
-      <Dropdown
-        menu={{
-          items,
-        }}
-        placement="bottom"
-      >
+      <Dropdown dropdownRender={() => <div>{items}</div>} placement="bottom">
         <Button>
           <TextNavbar none>{props?.title}</TextNavbar>
           <Image src={Arrow} />
